@@ -44,4 +44,4 @@ jobs:
           pass: 'Nuvelabs123$'
           connect_timeout: 10s
           first_ssh: |
-           curl http://localhost:8080/job/DeploymentProject/build?token=token22
+           curl -X POST http://admin:11adcfa049f8d374eb9b97c9fa05b39677@localhost:8080/job/DeploymentProject/build
